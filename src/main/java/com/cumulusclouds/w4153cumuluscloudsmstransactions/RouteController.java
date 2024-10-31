@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * This class contains all the API routes for the system.
  */
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/transactions")
 public class RouteController {
